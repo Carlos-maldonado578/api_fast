@@ -8,7 +8,7 @@ Asegúrate de tener instalados los siguientes componentes antes de ejecutar el p
 
 - **Python 3.7 o superior**
 - **pip** (el gestor de paquetes de Python)
-- **jq** (una utilidad para manipular datos JSON)
+- **jq** (una utilidad para manipular datos JSON `OPCIONAL`, ya que se pueden pasar los datos de a uno para poblar la base)
 
 ### Instalación de **jq**:
 - **Windows**:
