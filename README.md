@@ -26,7 +26,7 @@ Asegúrate de tener instalados los siguientes componentes antes de ejecutar el p
 Clona este repositorio en tu máquina local:
 
 ```bash
-[git clone https://github.com/usuario/mi-repositorio.git](https://github.com/Carlos-maldonado578/api_fast.git)
+(https://github.com/Carlos-maldonado578/api_fast.git)
 cd api_fast
 ```
 
