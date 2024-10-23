@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Camiseta",
+    "descripcion": "Camiseta de algodon",
+    "precio": 19.99,
+    "disponible": true
+  },
+  {
+    "nombre": "Pantalones",
+    "descripcion": "Pantalones de mezclilla",
+    "precio": 39.99,
+    "disponible": true
+  },
+  {
+    "nombre": "Chaqueta",
+    "descripcion": "Chaqueta de cuero",
+    "precio": 89.99,
+    "disponible": true
+  },
+  {
+    "nombre": "Zapatos",
+    "descripcion": "Zapatos deportivos",
+    "precio": 59.99,
+    "disponible": true
+  }
+]
