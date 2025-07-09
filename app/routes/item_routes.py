@@ -1,5 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
+from typing import List
 from .. import schemas, crud, models, database
 
 router = APIRouter()
@@ -10,7 +11,7 @@ def create_item(item: schemas.ItemCreate, db: Session = Depends(database.get_db)
     return crud.create_item(db=db, item=item)
 
 # Obtener todos los ítems
-@router.get("/items/", response_model=list[schemas.Item])
+@router.get("/items/", response_model=List[schemas.Item])
 def get_items(db: Session = Depends(database.get_db)):
     return crud.get_items(db)
 
